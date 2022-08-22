@@ -15,4 +15,4 @@
 5. 页面布局采用 flex 和 rem
 6. 使用 Eslint 进行代码规范
 
-### 项目在线预览
+### 项目在线预览 ： [点击前往](https://chb123123.github.io/dome-netease/dist/#/)

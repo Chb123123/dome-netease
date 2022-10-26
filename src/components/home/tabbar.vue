@@ -22,9 +22,6 @@ export default {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    height: 60px;
-    /deep/.van-tabbar{
-      height: 60px;
-    }
+    height: 1.8667rem;
   }
 </style>

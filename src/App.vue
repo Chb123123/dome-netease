@@ -1,6 +1,6 @@
 <template>
   <div class="appContainer">
-    <keep-alive exclude="songListMusicContent">
+    <keep-alive include="musicHome, songListSquare, userLike">
       <router-view></router-view>
     </keep-alive>
   </div>

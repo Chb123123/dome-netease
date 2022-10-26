@@ -81,6 +81,7 @@ export default {
         border-radius: 1.0667rem;
         border: 0;
         background-color: #eee;
+        font-size: .64rem;
       }
       .cancel{
         width: 2.6667rem;

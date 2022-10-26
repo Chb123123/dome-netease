@@ -55,6 +55,7 @@ import { getLikeMuisList } from '@/api/LikeMusic.js'
 import { GetMusicULR } from '@/api/getMusicUrlAPI.js'
 // import { threadId } from 'worker_threads'
 export default {
+  name: 'userLike',
   components: {
     Songle,
     PlayMusic1

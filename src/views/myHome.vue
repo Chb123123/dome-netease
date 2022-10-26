@@ -76,7 +76,7 @@ export default {
 
 <style lang="less" scoped>
   .appContainer{
-    padding: 2.6667rem 0 1.8667rem;
+    padding: 2.6667rem 0 2.1333rem;
     background-color: #ddd;
     .radio{
       background-color: white;

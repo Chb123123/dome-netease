@@ -1,6 +1,6 @@
 <template>
   <div class="musicContainer">
-    <van-swipe :loop="false" width="650" :show-indicators="false">
+    <van-swipe :loop="false" width="650px" :show-indicators="false">
       <van-swipe-item v-for="(item, index) in NewSong" :key="index">
         <router-link to="" class="singleMusic" v-for="(i, index) in item" :key="index">
           <span><img :src="i.picUrl" alt="">

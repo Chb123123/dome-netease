@@ -28,6 +28,7 @@ import SongStyle from '@/components/home/songLists/songStyle.vue'
 import { getSongList } from '@/api/getSongList.js'
 import { GetLoadSongList } from '@/api/getsongListrelatedAPI.js'
 export default {
+  name: 'songListSquare',
   components: {
     SongStyle
   },

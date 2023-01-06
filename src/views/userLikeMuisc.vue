@@ -122,7 +122,8 @@ export default {
         1472819130,
         1483488153,
         1396409548,
-        27937879],
+        27937879
+      ],
       userInfoLietMusic: [],
       // 第一次打开我喜欢模块的图片
       firstImg: '',
@@ -177,7 +178,7 @@ export default {
       // console.log(val)
       this.musicId = val
       const res = await GetMusicULR(val)
-      // console.log(res.data.data[0].url)
+      console.log(res.data.data[0].url)
       if (res.data.data[0].url) {
         // console.log(res.data.data[0].url)
         this.musicMp3 = res.data.data[0].url

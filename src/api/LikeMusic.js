@@ -5,6 +5,6 @@ export const getLikeMuisList = function () {
   return axios({
     method: 'get',
     url: '/likelist',
-    params: { uid: 32953014 }
+    params: { uid: 1803876680 }
   })
 }

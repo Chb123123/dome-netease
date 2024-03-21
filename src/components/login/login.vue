@@ -63,23 +63,23 @@ export default {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      border-radius: 20px;
+      border-radius: .5333rem;
       .loginHead{
-        height: 40px;
+        height: 1.0667rem;
         color: white;
-        line-height: 40px;
+        line-height: 1.0667rem;
         text-align: center;
-        margin-top: 15px;
-        font-size: 24px;
-        margin-bottom: 20px;
+        margin-top: .4rem;
+        font-size: .64rem;
+        margin-bottom: .5333rem;
       }
       .loginUser{
-        margin-bottom: 10px;
+        margin-bottom: .2667rem;
         text-align: center;
         display: flex;
-        padding: 0 20px;
-        height: 35px;
-        line-height: 35px;
+        padding: 0 .5333rem;
+        height: .9333rem;
+        line-height: .9333rem;
         color: white;
         > input{
           flex: 1;
@@ -87,16 +87,16 @@ export default {
           border: 0;
           color: #ccc;
           background-color: transparent;
-          border-bottom: 1px solid white;
+          border-bottom: .0267rem solid white;
         }
       }
       .loginPwd{
-          margin-bottom: 10px;
+          margin-bottom: .2667rem;
         text-align: center;
         display: flex;
-        padding: 0 20px;
-        height: 35px;
-        line-height: 35px;
+        padding: 0 .5333rem;
+        height: .9333rem;
+        line-height: .9333rem;
         color: white;
         > input{
           flex: 1;
@@ -104,15 +104,15 @@ export default {
           border: 0;
           color: #ccc;
           background-color: transparent;
-          border-bottom: 1px solid white;
+          border-bottom: .0267rem solid white;
         }
         }
         .loginbtn{
           display: block;
           width: 80%;
-          height: 30px;
-          margin: 25px auto 0;
-          border-radius: 20px;
+          height: .8rem;
+          margin: .6667rem auto 0;
+          border-radius: .5333rem;
           background: -webkit-linear-gradient(left, #b9c1f8, #e78788);
           border: 0;
           color: white;
@@ -120,10 +120,10 @@ export default {
     }
     .register{
       position: absolute;
-      bottom: 10px;
-      right: 10px;
+      bottom: .2667rem;
+      right: .2667rem;
       // margin-top: 10px;
-      font-size: 12px;
+      font-size: .32rem;
       color: white;
     }
   }

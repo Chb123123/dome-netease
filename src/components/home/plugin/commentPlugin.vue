@@ -33,9 +33,9 @@ export default {
 
 <style lang="less" scoped>
   .commentContainer{
-    margin-top: 10px;
-    padding: 0 10px;
-    margin-bottom: 15px;
+    margin-top: .2667rem;
+    padding: 0 .2667rem;
+    margin-bottom: .4rem;
     display: flex;
     // height: 100px;
     // background-color: red;
@@ -43,8 +43,8 @@ export default {
       flex: 0.15;
       // background-color: red;
       img{
-        width: 40px;
-        height: 40px;
+        width: 1.0667rem;
+        height: 1.0667rem;
         display: block;
         border-radius: 50%;
       }
@@ -56,7 +56,7 @@ export default {
       // background-color: aqua;
       .user{
         position: relative;
-        height: 40px;
+        height: 1.0667rem;
         display: flex;
         // flex-wrap: wrap;
         flex-direction: column;

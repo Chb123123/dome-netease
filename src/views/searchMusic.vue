@@ -84,6 +84,7 @@ export default {
         font-size: .64rem;
       }
       .cancel{
+        font-size: .64rem;
         width: 2.6667rem;
         text-align: center;
         line-height: 1.6rem;

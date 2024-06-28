@@ -30,7 +30,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: () => import('@/views/musicLyric/musicLyric.vue') },
+  { path: '/', component: () => import('@/views/myHome.vue') },
   { path: '/login', component: () => import('@/components/login/login.vue') },
   { path: '/home', component: () => import('@/views/myHome.vue') },
   { path: '/register', component: () => import('@/components/register/register.vue') },

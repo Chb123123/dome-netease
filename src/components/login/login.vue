@@ -70,38 +70,42 @@ export default {
         line-height: 1.0667rem;
         text-align: center;
         margin-top: .4rem;
-        font-size: .64rem;
+        font-size: 1.28rem;
         margin-bottom: .5333rem;
       }
       .loginUser{
-        margin-bottom: .2667rem;
+        margin-bottom: .5333rem;
         text-align: center;
         display: flex;
         padding: 0 .5333rem;
-        height: .9333rem;
-        line-height: .9333rem;
+        height: 1.6rem;
+        height: 1.6rem;
+        font-size: .96rem;
         color: white;
         > input{
           flex: 1;
           outline: none;
           border: 0;
           color: #ccc;
+          height: 1.3333rem;
           background-color: transparent;
           border-bottom: .0267rem solid white;
         }
       }
       .loginPwd{
-          margin-bottom: .2667rem;
+        margin-bottom: 1.0667rem;
         text-align: center;
         display: flex;
+        font-size: .8533rem;
         padding: 0 .5333rem;
-        height: .9333rem;
+        height: 1.3333rem;
         line-height: .9333rem;
         color: white;
         > input{
           flex: 1;
           outline: none;
           border: 0;
+          height: 1.3333rem;
           color: #ccc;
           background-color: transparent;
           border-bottom: .0267rem solid white;
@@ -110,9 +114,10 @@ export default {
         .loginbtn{
           display: block;
           width: 80%;
-          height: .8rem;
+          height: 1.6rem;
+          font-size: .96rem;
           margin: .6667rem auto 0;
-          border-radius: .5333rem;
+          border-radius: .8rem;
           background: -webkit-linear-gradient(left, #b9c1f8, #e78788);
           border: 0;
           color: white;
@@ -120,10 +125,10 @@ export default {
     }
     .register{
       position: absolute;
-      bottom: .2667rem;
-      right: .2667rem;
+      bottom: .5333rem;
+      right: .5333rem;
       // margin-top: 10px;
-      font-size: .32rem;
+      font-size: .64rem;
       color: white;
     }
   }

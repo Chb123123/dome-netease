@@ -9,3 +9,13 @@ export const getMusicDetails = function (id) {
     params: { ids: id }
   })
 }
+
+// 获取歌曲详情
+export const getMusicLyric = function (id) {
+  return axios({
+    method: 'get',
+    url: '/lyric',
+    // id 为歌曲的 ID
+    params: { id: id }
+  })
+}

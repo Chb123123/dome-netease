@@ -30,7 +30,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: () => import('@/views/myHome.vue') },
+  { path: '/', component: () => import('@/views/musicLyric/musicLyric.vue') },
   { path: '/login', component: () => import('@/components/login/login.vue') },
   { path: '/home', component: () => import('@/views/myHome.vue') },
   { path: '/register', component: () => import('@/components/register/register.vue') },
@@ -44,7 +44,8 @@ const routes = [
   { path: '/searchAbout', component: () => import('@/components/Search/searchMusicList.vue') },
   { path: '/comments', component: () => import('@/components/home/songLists/commentList/commentList.vue') },
   { path: '/playMv', component: () => import('@/components/home/plugin/playMv.vue') },
-  { path: '/mvContainer', component: () => import('@/components/home/mvList.vue') }
+  { path: '/mvContainer', component: () => import('@/components/home/mvList.vue') },
+  { path: '/musicLyric', name: 'musicLyric', component: () => import('@/views/musicLyric/musicLyric.vue') }
 ]
 
 // const routes = [

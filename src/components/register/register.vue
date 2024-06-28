@@ -85,64 +85,71 @@ export default {
       width: 80vw;
       height: 50vh;
       background-color: rgba(255,255,255,0.5);
-      box-shadow: 0 0 15px rgba(255,255,255,0.5);
-      border-radius: 20px;
+      box-shadow: 0 0 .8rem rgba(255,255,255,0.5);
+      border-radius: .8rem;
       .registerHead{
-        height: 40px;
+        height: 1.6rem;
         color: aqua;
-        font-size: 24px;
-        line-height: 40px;
+        font-size: 1.28rem;
+        height: 1.6rem;
         text-align: center;
-        margin: 10px 0;
+        margin: .5333rem 0;
       }
       .registerPhone{
         display: flex;
-        height: 35px;
-        padding: 0 20px;
+        height: 1.3333rem;
+        padding: 0 .5333rem;
         > input {
           flex: 1;
           background-color: transparent;
           border: 0;
-          border-bottom: 1px solid #ccc;
+          font-size: .96rem;
+          border-bottom: .0533rem solid #ccc;
           color: #fff;
-          padding: 0 10px;
+          padding: 0 .5333rem;
         }
       }
       .registerPasswd{
-        margin-top: 10px;
+        margin-top: .5333rem;
         display: flex;
-        height: 35px;
-        padding: 0 20px;
+        height: 1.8667rem;
+        padding: 0 .5333rem;
         > input {
           flex: 1;
           background-color: transparent;
           border: 0;
-          border-bottom: 1px solid #ccc;
+          font-size: .96rem;
+          border-bottom: .0533rem solid #ccc;
           color: #fff;
-          padding: 0 10px;
+          padding: 0 .5333rem;
         }
       }
       .registerverificationcode{
         display: flex;
-        height: 35px;
-        padding: 0 20px;
-        margin: 20px 0 30px;
+        height: 1.6rem;
+        padding: 0 .5333rem;
+        margin: .5333rem 0 .8rem;
         > input{
-          flex: 1;
-          margin-right: 20px;
+          width: 60%;
+          height: 1.6rem;
+          margin-right: 1.0667rem;
           background-color: transparent;
-          border: 1px solid #ccc;
+          border: 0;
+          border-bottom: .0533rem solid #ccc;
           color: #fff;
-          padding-left: 10px;
+          font-size: .96rem;
+          padding-left: .5333rem;
         }
         .send{
-          // flex: 1;
-          width: 100px;
-          font-size: 12px;
+          flex: 1;
+          width: 8rem;
+          height: 1.6rem;
+          font-size: .64rem;
           // margin-left: 20px;
           background-color: rgb(110, 14, 189);
           border: 0;
           color: white;
+          margin-left: .8rem;
         }
       }
       .userRegister{
@@ -153,17 +160,17 @@ export default {
         background: -webkit-linear-gradient(left,red,aqua);
         border: 0;
         color: white;
-        border-radius: 20px;
+        border-radius: 1.0667rem;
         margin: auto;
-        box-shadow: 0 0 10px;
+        box-shadow: 0 0 .5333rem;
       }
     }
     .register{
       position: absolute;
-      bottom: 10px;
-      right: 10px;
+      bottom: .5333rem;
+      right: .5333rem;
       // margin-top: 10px;
-      font-size: 12px;
+      font-size: .64rem;
       color: white;
     }
   }

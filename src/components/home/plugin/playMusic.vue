@@ -2,7 +2,7 @@
   <div class="playMusicContainer">
     <div class="musicPlayStyle">
       <audio :src="musicURL" loop="loop" contrals="contrals" :autoplay="autoPlayMusic" ref="audioAbout" @pause="taggerPlay"></audio>
-      <div class="musicbackbg" ref="musicbackground"><img :src="firstMusicBack" alt=""></div>
+      <div class="musicbackbg" ref="musicbackground" @click="setMusicLyric"><img :src="firstMusicBack" alt=""></div>
       <div class="musicTitle">{{ firstMusicTitle }} <span>- {{firstMusicAuthor}}</span></div>
       <div class="playBtn" @click="playMusic">
         <span v-if="autoPlayMusic"><van-icon name="pause-circle-o" /></span>
@@ -41,6 +41,19 @@ export default {
     }
   },
   methods: {
+    setMusicLyric () {
+      if (typeof this.musicURL === 'string' && this.musicURL !== '') {
+        this.$router.push({
+          name: 'musicLyric',
+          params: {
+            musicURL: this.musicURL,
+            id: this.getMusicid
+          }
+        })
+      } else {
+        console.log('音乐地址不可用')
+      }
+    },
     playMusic () {
       if (this.autoPlayMusic) {
         this.autoPlayMusic = false
